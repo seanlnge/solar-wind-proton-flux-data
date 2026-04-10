@@ -24,12 +24,17 @@ it comes from: https://data.ngdc.noaa.gov/platforms/solar-space-observing-satell
 Each file is a different day, each day contains 72k rows:
 
 1440 minutes * 2 sensor units * (
+
     13 energy channels for differential proton
+
     11 alpha channels for differential alpha
+
     1 integral proton row
+    
 ) = 72k rows
 
 ~~ts data was 5gb and i am actively curl-ing more data~~
+
 its now 8.25gb, but i am done curl-ing more data
 
 each file comes as a NetCFD file, script in here to parse into CSV
