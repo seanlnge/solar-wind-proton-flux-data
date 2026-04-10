@@ -30,11 +30,11 @@ Each file is a different day, each day contains 72k rows:
     11 alpha channels for differential alpha
 
     1 integral proton row
-    
+
 ) = 72k rows
 
 ~~ts data was 5gb and i am actively curl-ing more data~~
 
-its now 8.25gb, but i am done curl-ing more data
+its now 8.25gb, but i am done curl-ing data
 
-each file comes as a NetCFD file, script in here to parse into CSV
+each file comes as a NetCDF file, script in here to parse into CSV
